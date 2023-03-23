@@ -1,7 +1,7 @@
 const bg = document.getElementById('background1');
 const Cbg = bg.getContext('2d');
-const bg_width = bg.width = 50;
-const bg_height = bg.height = 50;
+const bg_width = bg.width = 100;
+const bg_height = bg.height = 100;
 
 let pos_y = 0;
 let masa = 0;
