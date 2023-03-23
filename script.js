@@ -70,7 +70,7 @@ var password_user = "exit";
 function login(password) {
   if (password == password_user) {
     popup("berhasil, untuk login!","green");
-    window.location.href = "/global/exit.html";
+    window.location.href = "global/exit.html";
   }
   else {
     popup("password login salah, sila cuba lagi!", "red");
