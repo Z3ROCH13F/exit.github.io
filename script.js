@@ -13,17 +13,9 @@ function jump(num) {
   if (num == 1){
     pos_y ++;
   }
-  else {
-    console.log(pos_y);
-  }
-  
   if (num == 0) {
     pos_y --;
   }
-  else {
-    console.log(pos_y);
-  }
-  
   if (pos_y > 50 - 1) {
     pos_y = 0;
   }
@@ -32,7 +24,6 @@ function jump(num) {
 // function loading
 function sleep() {
   masa ++;
-  console.log(masa,'\r');
   if (masa > 16 - 1) {
     masa = 0;
     pos_y += 1;
