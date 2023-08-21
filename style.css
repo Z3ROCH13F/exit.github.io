@@ -1,50 +1,13 @@
-
 body {
   background: blue;
 }
 
-#login_text {
-  background-color: black;
-  color: white;
-  border: 1px solid white;
-  outline: None;
-  position: absolute;
-  top: 500px;
-  left: 50%;
-  width: 430px;
-  height: 40px;
-  transform: translate(-50%, -50%);
-}
-
-#login {
-  background-color: black;
-  color: white;
-  border: 1px solid white;
-  width: 60px;
-  height: 45px;
-  position: absolute;
-  top: 500px;
-  left: 75%;
-  transform: translate(-10%, -50%);
-}
-
 #background1 {
   background-color: red;
-  border: 2px solid black;
+  border: 2px solid;
   position: absolute;
-  top: 300px;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#info1 {
-  background-color: black;
-  color: white;
-  width: 30px;
-  height: 30px;
-  border-radius: 30px;
-  position: absolute;
-  top: 545px;
-  left: 300px;
-  transform: translate(-10%, -50%);
+  transform: translate(50%, 50%);
+  box-shadow: 0 0 20px;
 }
